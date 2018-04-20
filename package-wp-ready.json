@@ -24,29 +24,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/40Digits/wordpress-starter-theme"
+    "url": "https://github.com/ckhicks/wordpress-starter-theme"
   },
   "author": "40Digits",
-  "contributors": [
-    {
-      "name": "Brandon Cash"
-    },
-    {
-      "name": "Besim Huskic"
-    },
-    {
-      "name": "Chad Watson"
-    },
-    {
-      "name": "CK Hicks"
-    },
-    {
-      "name": "Grant Holle"
-    },
-    {
-      "name": "Sav Russell"
-    }
-  ],
   "license": "ISC",
   "devDependencies": {
     "opener": "^1.4.1",

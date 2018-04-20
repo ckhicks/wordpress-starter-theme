@@ -1,0 +1,31 @@
+{
+  "name": "WJC-BrainWave-Site",
+  "version": "0.0.1",
+  "description": "",
+  "config": {
+    "domain": "https://wjc.local",
+    "assets": "./assets",
+    "source": "./_src"
+  },
+  "main": "_src/js/main.js",
+  "scripts": {
+    "browser-sync": "browser-sync start --files \"!node_modules\" --files \"**/*.php\" --files \"./assets/**/*\" --files \"*.css\" --proxy $npm_package_config_domain --no-notify",
+    "sass": "cd ./_src/sass/ && npm run watch",
+    "js": "cd ./_src/js/ && npm run watch",
+    "watch": "parallelshell \"npm run sass\" \"npm run js\"",
+    "start": "parallelshell \"npm run watch\" \"npm run browser-sync\""
+  },
+  "author": "40Digits",
+  "license": "UNLICENSED",
+  "devDependencies": {
+    "browser-sync": "^2.13.0",
+    "chokidar-cli": "^1.2.0",
+    "imagemin-cli": "^3.0.0",
+    "lwip": "0.0.9",
+    "opener": "^1.4.1",
+    "parallelshell": "^2.0.0",
+    "sprity-cli": "~1.0.1",
+    "svg-sprite": "^1.3.6",
+    "threepio": "^1.0.0"
+  }
+}
