@@ -1,9 +1,9 @@
 {
-  "name": "WJC-BrainWave-Site",
+  "name": "FableMedia",
   "version": "0.0.1",
   "description": "",
   "config": {
-    "domain": "https://wjc.local",
+    "domain": "https://fable.local",
     "assets": "./assets",
     "source": "./_src"
   },
@@ -20,8 +20,6 @@
   "devDependencies": {
     "browser-sync": "^2.13.0",
     "chokidar-cli": "^1.2.0",
-    "imagemin-cli": "^3.0.0",
-    "lwip": "0.0.9",
     "opener": "^1.4.1",
     "parallelshell": "^2.0.0",
     "sprity-cli": "~1.0.1",
